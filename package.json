@@ -1,0 +1,25 @@
+{
+  "name": "xscript",
+  "version": "1.0.0",
+  "description": "Modern Script for Monolythic Web Applications",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webino-co/xscript.git"
+  },
+  "author": "Webino.co Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webino-co/xscript/issues"
+  },
+  "homepage": "https://github.com/webino-co/xscript#readme",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
